@@ -39,4 +39,13 @@
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/LogoutServlet</url-pattern>
   </servlet-mapping>
+  <filter>
+    <display-name>PrivilegeFilter</display-name>
+    <filter-name>PrivilegeFilter</filter-name>
+    <filter-class>cn.luyi.filter.PrivilegeFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>PrivilegeFilter</filter-name>
+    <url-pattern>/success.jsp</url-pattern>
+  </filter-mapping>
 </web-app>

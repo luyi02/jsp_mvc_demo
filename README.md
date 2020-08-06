@@ -61,6 +61,9 @@
 	   |--cn.luyi.utils：存放java的工具类
 	
 		  |--JDBCUtils.java:使用连接池连接数据库的工具类
+	   |--cn.luyi.filter:存放过滤器
+
+	      |--PrivilegeFilter.java：权限过滤器
 	
 	   |--c3p0-config.xml：c3p0连接池连接数据库的配置文件
 	
@@ -72,7 +75,7 @@
 	
 	   |--lib:存放依赖的jar包
 	
-	   |--web.xml:用来初始化配置信息的，Servlet的使用就需要在这里进行配置
+	   |--web.xml:用来初始化配置信息的，Servlet，Filter的使用就需要在这里进行配置
 	
 	   |--login.jsp:
 	
