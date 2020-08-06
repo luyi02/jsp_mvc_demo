@@ -64,6 +64,10 @@
 	   |--cn.luyi.filter:存放过滤器
 
 	      |--PrivilegeFilter.java：权限过滤器
+	      
+		  |--GenericEncodingFilter.java:通用字符集过滤器
+
+		  |--MyHttpServletRequest.java:增强的类，增强了request对象的getParameter方法
 	
 	   |--c3p0-config.xml：c3p0连接池连接数据库的配置文件
 	
