@@ -7,7 +7,7 @@
 
 ## 2.运行环境
 
- - JavaEE2.5版本
+ - dynamic web2.5版本
  - jdk8版本
  - MySQL8.017版本
 
