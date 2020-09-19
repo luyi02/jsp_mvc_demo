@@ -1,23 +1,25 @@
-##1.程序的基本功能
+# jsp_mvc_demo
+
+## 1.程序的基本功能
 
  - 实现简单的登录功能
  - 登录功能中包括一次性验证码功能和记住用户名功能
 
-##2.运行环境
+## 2.运行环境
 
  - JavaEE2.5版本
  - jdk8版本
  - MySQL8.017版本
 
 
-##3.依赖的jar包
+## 3.依赖的jar包
 
  - c3p0-0.9.5.2.jar（连接池jar包）
  - mchange-commons-java-0.2.12.jar（c3p0的使用需要这个包）
  - commons-dbutils-1.7.jar（DBUtils使用依赖的jar包）
  - mysql-connector-java-8.0.17.jar（连接数据库时依赖的jar包）
 
-##4.依赖的数据库的创建
+## 4.依赖的数据库的创建
 创建数据库：
 
 	create database my;
@@ -33,7 +35,7 @@
 
 	insert into student(username, `password`, role) VALUES("luyi", "123", "student"), ("luer","321", "teacher")
 
-##5.代码目录
+## 5.代码目录
 
 	jsp_mvc_demo/
 	
